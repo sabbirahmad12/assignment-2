@@ -1,0 +1,249 @@
+@media only screen and (min-width:200px) and (max-width:600px){
+
+/* nav section start here*/
+.body-container {
+    padding: 0px 20px;
+}
+.navigation-section {
+    flex-direction: column;
+    text-align: center;
+}
+.search-section {
+    height: 50px;
+    width: 280px;
+
+}
+.nav-list {
+    padding-left: 100px;
+}
+/* nav section end here*/
+/* banner section start here*/
+.banner-section {
+    flex-direction: column;
+    align-items: center;
+    
+}
+.search-container {
+    padding: 35px 43px;
+}
+.material-symbols-outlined {
+    padding: 0px 4px;
+
+}
+.banner-left {
+    width: 100%;
+}
+.banner-left h1 {
+    font-size: 45px;
+    line-height: .99;
+}
+.banner-left p {
+    font-size: 20px;
+}
+.bttn-1 {
+    font-size: 14px;
+    width: 160px;
+    height: 56px;
+}
+
+.banner {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+    align-items: center;
+    row-gap: 90px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+/* banner section end here*/
+/* short list section start here*/
+.info-container{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.info-full{
+    height: auto;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.vertical-line{
+    width: 100%;
+    height: 1px;    
+    
+}
+.info-left{    
+    width: 100%;        
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* product start  */
+.product-grid{
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.product-container h2{    
+    font-size: 22px;    
+    margin-bottom: 20px;
+    
+}
+.product-container h3{    
+    font-size: 18px;
+}
+
+
+.product-details h1{
+    font-size: 18px;
+}
+.product-details h2{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.product-details h3{
+    font-size: 10px;
+    margin-top: 0;
+}
+.add-cart{
+    margin-bottom: 10px;
+
+}
+.product-details-right img{
+    width: 15px;
+    
+}
+/* product end  */
+/* service start  */
+.service-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+.service-header h2{
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.service-header h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.service-box{
+    width: 100%;
+    height: 300px;
+    padding: 0px 20px;
+}
+.service-details h2{
+    font-size: 22px;
+}
+.service-details h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* service end  */
+/* testimonial start  */
+
+.testimonial-full{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-left{
+    width: 100%;
+    height: 300px;    
+
+}
+
+.test-left-up{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.test-left-down{
+    height: 60%;
+    justify-content:first baseline;
+    align-items: center;
+    font-size: 14px;
+}
+.testimonial-right{
+    width: 100%;
+    margin-top: 20px;   
+
+}
+/* testimonial end  */
+
+.subscriber-full{
+    /* height: 250px; */
+    width: 100%; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscriber-left img{
+    width: 100%;
+    
+}
+.subscriber-right{
+    width: 100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100px;
+}
+/* footer start  */
+.footer-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(225, 227, 230);
+    margin-left: calc(-1*20px);
+    margin-right: calc(-1*20px);
+    padding: 40px 70px;
+
+}
+.footer-1{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+}
+.footer-2{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+}
